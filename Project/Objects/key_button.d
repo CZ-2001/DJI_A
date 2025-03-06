@@ -2,7 +2,7 @@
 .\objects\key_button.o: ..\Mylib\key_button.h
 .\objects\key_button.o: ..\Libaries\CMSIS\stm32f4xx.h
 .\objects\key_button.o: ..\Libaries\CMSIS\core_cm4.h
-.\objects\key_button.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key_button.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\key_button.o: ..\Libaries\CMSIS\core_cmInstr.h
 .\objects\key_button.o: ..\Libaries\CMSIS\core_cmFunc.h
 .\objects\key_button.o: ..\Libaries\CMSIS\core_cmSimd.h
@@ -42,10 +42,10 @@
 .\objects\key_button.o: ..\Mylib\delay.h
 .\objects\key_button.o: ..\Mylib\led.h
 .\objects\key_button.o: ..\Mylib\usart6_vision.h
-.\objects\key_button.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\key_button.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-.\objects\key_button.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\key_button.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\key_button.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\key_button.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+.\objects\key_button.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\key_button.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\key_button.o: ..\Tasks\vofa_task.h
 .\objects\key_button.o: ..\APP\vision_behaviour.h
 .\objects\key_button.o: ..\APP\gimbal_behaviour.h
@@ -56,7 +56,7 @@
 .\objects\key_button.o: ..\Tasks\user_task.h
 .\objects\key_button.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\key_button.o: ..\FreeRTOS\include\FreeRTOS.h
-.\objects\key_button.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\key_button.o: D:\MDK\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\key_button.o: ..\FreeRTOS\include\projdefs.h
 .\objects\key_button.o: ..\FreeRTOS\include\portable.h
 .\objects\key_button.o: ..\FreeRTOS\include\deprecated_definitions.h

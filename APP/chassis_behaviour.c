@@ -160,10 +160,10 @@ void Chassis_Gyro_RC(Chassis_Aim_Send_Current_Typedef *Structure)
 	Structure->theta = (fp32)Myaw.ecd;
 
 	Structure->theta = (Structure->theta - Gimbal_Str->Yaw_Angle_Zero) * Motor_Ecd_to_Rad;
-
+/*
 	Structure->sin_yaw = -arm_sin_f32(Structure->theta);
 	Structure->cos_yaw = -arm_cos_f32(Structure->theta);
-
+*/
 	Structure->Speed_x0 = Chassis_Str->RC->rc.ch[0] * GYRO_SPEED_RATIO;
 	Structure->Speed_y0 = Chassis_Str->RC->rc.ch[1]  * GYRO_SPEED_RATIO;
 
@@ -311,13 +311,13 @@ void Chassis_Key_Gyro(Chassis_Typedef *Structure)
 	Structure->Aim_Send_Current_Structure.theta = (fp32)Myaw.ecd;
 	Structure->Aim_Send_Current_Structure.theta =
 		(Structure->Aim_Send_Current_Structure.theta -  Gimbal_Str->Yaw_Angle_Zero) * Motor_Ecd_to_Rad;
-
+/*
 	Structure->Aim_Send_Current_Structure.sin_yaw =
 		-arm_sin_f32(Structure->Aim_Send_Current_Structure.theta);
 
 	Structure->Aim_Send_Current_Structure.cos_yaw =
 		arm_cos_f32(Structure->Aim_Send_Current_Structure.theta);
-
+*/
 	Structure->Aim_Send_Current_Structure.Speed_x0 =
 		-(Structure->KeyTime_Structure.w - Structure->KeyTime_Structure.s) ;
 
